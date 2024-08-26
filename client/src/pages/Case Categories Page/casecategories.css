@@ -1,0 +1,54 @@
+.casewhole {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+}
+
+.categorieswhole {
+    background-color: rgba(189, 189, 230, 1);
+    padding: 10px 10px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.cc {
+    padding: 10px 10px;
+    color: black; /* Ensures the header text color is black */
+}
+
+.cases {
+    display: flex;
+    flex-direction: row;
+}
+
+.case1 {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(235, 223, 216, 1);
+    max-width: 300px;
+    height: 200px;
+    width: 170px;
+    margin: 20px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black; /* Ensures the text inside each case is black */
+}
+
+.case1 a {
+    color: black;
+    text-decoration: none; /* This removes the underline from the link */
+}
+
+.case1 a:hover {
+    text-decoration: underline; /* Optionally, you can add an underline on hover */
+}
+
+.no1 img {
+    max-width: 130px;
+    margin: 20px 0px;
+}
+
+.no1 {
+    margin-left: 20px;
+    color: black; /* Ensures any text within .no1 is black */
+    cursor: pointer;
+}

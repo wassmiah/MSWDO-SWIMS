@@ -1,0 +1,29 @@
+.sidebar1 {
+    width: 250px;
+    background-color: #ffeb3b;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.mainContent {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: white;
+}
+
+.paper {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.active {
+    font-weight: bold;
+    color: red;
+}

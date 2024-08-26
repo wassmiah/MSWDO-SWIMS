@@ -1,0 +1,61 @@
+/* UserManagement.module.css */
+.container {
+    display: flex;
+    height: 100vh;
+    background-color: white;
+}
+
+.sidebar1 {
+    width: 250px;
+    background-color: #ffeb3b;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.mainContent {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: white;
+}
+
+.tableContainer {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #f5f5f5;
+}
+
+.inputField {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.addButton {
+    margin-bottom: 20px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.detailsButton {
+    margin-right: 10px;
+}

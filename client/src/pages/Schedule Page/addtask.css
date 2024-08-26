@@ -1,0 +1,68 @@
+.page-container {
+    display: flex;
+  }
+  
+  .add-task-content {
+    flex-grow: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  
+  .add-task-container {
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .add-task-container h2 {
+    margin-bottom: 10px;
+  }
+  
+  .add-task-container p {
+    margin-bottom: 20px;
+  }
+  
+  .add-task-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .add-task-container .form-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+  }
+  
+  .add-task-container label {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    flex: 1;
+  }
+  
+  .add-task-container input, .add-task-container select, .add-task-container textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  .add-task-container button {
+    background-color: #ff0;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 20px;
+    align-self: center;
+  }
+  

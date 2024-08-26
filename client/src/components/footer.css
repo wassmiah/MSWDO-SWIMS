@@ -1,0 +1,62 @@
+/* footer.js */
+.foot{
+  background-color: rgba(252, 136, 44, 1);
+  display: flex;
+}
+
+.foote{
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.foote a{
+  text-decoration: none;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.left{
+  margin-right: 20px;
+  padding-top: 10px;
+}
+
+.left img{
+  height: 150px;
+  max-width: 300px;
+  margin-left: 50px;
+}
+
+.right{
+  display: flex;
+  flex-direction: column;
+  padding-left: 800px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.social-buttons {
+  display: flex;
+}
+
+.soci{
+  margin-left: 50px;
+}
+
+.facebook-icon .svg-inline--fa {
+  color: #3b5998; /* Facebook blue color */
+  font-size: 24px; /* Increase the font size */
+  margin-right: 5px;
+}
+
+.twitter-icon .svg-inline--fa {
+  color: #1da1f2; /* Twitter blue color */
+  font-size: 24px; /* Increase the font size */
+  margin-right: 5px;
+}
+
+.google-icon .svg-inline--fa {
+  color: #DB4437; /* Google red color */
+  font-size: 24px; /* Increase the font size */
+}

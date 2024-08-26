@@ -1,0 +1,40 @@
+/* header.js */
+.nav {
+  display: flex;
+  align-items: center;
+  background-color: rgba(252, 136, 44, 1);
+}
+
+.nav a {
+  margin: 20px;
+}
+
+.nav img {
+  height: 75px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.feat {
+  display: flex;
+  align-items: left;
+}
+
+.feat a {
+  text-decoration: none;
+  padding-right: 15px;
+  font-size: 15px;
+  color: white;
+}
+
+.featu{
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.featu a{
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+}

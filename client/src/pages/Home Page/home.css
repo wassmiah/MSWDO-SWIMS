@@ -1,0 +1,117 @@
+/* home.js */
+.whole{
+  background-color: rgba(252, 136, 44, 1);
+}
+  
+.home{
+  display: flex;
+}
+  
+.protect{
+  flex: 1; /* Take up remaining space */
+  text-align: left;
+  padding-top: 120px;
+  margin-left: 50px;
+  color: white;  
+}
+  
+.protect h1{
+  font-size: 60px;
+}
+
+.protect h4{
+  font-size: 35px;
+}
+
+.pic {
+  flex: 1; /* Take up remaining space */
+  display: flex;
+  justify-content: flex-end; /* Align content to the right */
+  align-items: center; /* Center vertically */
+  padding: 20px; /* Add padding for spacing */
+}
+
+img {
+  max-width: 100%; /* Ensure image doesn't exceed container width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.about{
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  color: white;
+}
+
+.about h1{
+  font-size: 40px;
+}
+
+.pa {
+  text-align: center;
+  padding-left: 250px;
+  max-width: 1000px;
+  font-size: 25px;
+  color: white;
+}
+
+.mission{
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  color: white;
+}
+
+.mission h1{
+  font-size: 40px;
+}
+
+.mis{
+  display: flex;
+}
+
+.mispic {
+  flex: 1; /* Take up remaining space */
+  text-align: center;
+  padding-top: 30px;
+  margin-left: 30px;
+}
+
+.mispa{
+  flex: 1; /* Take up remaining space */
+  padding-top: 20px;
+  font-size: 30px;
+  margin: 0px 20px;
+  color: white;
+}
+
+.vision{
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  color: white;
+}
+
+.vision h1{
+  font-size: 40px;
+}
+
+.vis{
+  display: flex;
+}
+
+.vispa{
+  flex: 1; /* Take up remaining space */
+  padding-top: 20px;
+  font-size: 30px;
+  padding-left: 30px;
+  color: white;
+}
+
+.vispic {
+  flex: 1; /* Take up remaining space */
+  display: flex;
+  justify-content: flex-end; /* Align content to the right */
+  align-items: center; /* Center vertically */
+  padding: 20px; /* Add padding for spacing */
+}

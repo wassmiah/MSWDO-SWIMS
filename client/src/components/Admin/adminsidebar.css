@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.adminsidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: rgba(252, 136, 44, 1);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-decoration: none; /* Ensures links have no underline */
+}
+
+.menu-link {
+    flex-grow: 1;
+    text-decoration: none;
+    color: white;
+}
+
+.menu-item:hover, .menu-item.active {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.menu-item .text {
+    color: white;
+}

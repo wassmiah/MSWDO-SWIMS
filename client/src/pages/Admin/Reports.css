@@ -1,0 +1,21 @@
+.logo {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.mainContent {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: white;
+}
+
+.paper {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.active {
+    font-weight: bold;
+    color: red;
+}

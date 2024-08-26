@@ -1,0 +1,25 @@
+.summary-boxes {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;
+    margin-left: 192px;
+}
+
+.summary-box {
+    background-color: #FF7043;
+    color: white;
+    padding: 20px;
+    margin-right: 75px;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+}
+
+.summary-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.summary-value {
+    font-size: 2em;
+}

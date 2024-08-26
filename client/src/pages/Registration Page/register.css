@@ -1,0 +1,70 @@
+/* register.js */
+.regimain{
+  display: flex;
+  flex-direction: row;
+}
+
+.regileftpara{
+  background-color: rgba(252, 136, 44, 1);
+  height: 100vh;
+  padding: 0 50px;
+  color: white;
+}
+
+.regileftpara img{
+  margin-top: 200px;
+  height: 300px;
+  margin-left: 70px;
+}
+
+.regiright{
+  padding-left: 40px;
+}
+
+.regirightpara{
+  margin-top: 10px;
+}
+
+.regiboxes{
+  justify-content: center;
+  margin: 80px 80px;
+}
+
+.reginames{
+  display: flex;
+}
+
+.regifirstlast{
+  max-width: 200px;
+  margin-right: 40px;
+  margin-top: 10px;
+}
+
+.single{
+  padding-top: 20px;
+}
+
+.regibox{
+  width: 442px;
+}
+
+.registerButton{
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.backtologButton{
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+.butto{
+  background-color: rgba(255, 254, 4, 1);
+  border: none;
+  padding: 10px 20px;
+  margin-left: 100px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 200px;
+}

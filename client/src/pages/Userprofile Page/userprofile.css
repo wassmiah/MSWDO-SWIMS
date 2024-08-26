@@ -1,0 +1,60 @@
+/* userprofile.js */
+.userwhole {
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  margin-left: 50px;
+}
+
+.userpage{
+  margin: 10px 45px;
+
+}
+
+.userprofile{
+  padding-top: 5px;
+}
+
+.useravatar img{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.names{
+  display: flex;
+}
+
+.double{
+  max-width: 200px;
+  margin-right: 40px;
+  margin-top: 10px;
+}
+
+.doublebox{
+  max-width: 200px;
+}
+
+.labels{
+  max-width: 200px;
+  margin-top: 10px;
+}
+
+.boxes{
+  width: 440px;
+}
+
+.savebutton{
+  margin-top: 20px;
+  padding-left: 160px;
+}
+
+.savebut{
+  background-color: rgba(255, 254, 4, 1);
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+  

@@ -1,0 +1,86 @@
+/* sidebar.css */
+.sidebar {
+  background-color: rgba(252, 136, 44, 1);
+  height: 100vh; /* Ensure the sidebar takes the full height of the viewport */
+  max-width: 350px;
+  padding-right: 10px;
+  margin-right: 30px;
+  justify-content: left;
+  transition: max-width 0.3s ease, background-color 0.3s ease; /* Smooth transition for the toggle */
+  overflow: hidden; /* Hide overflow content when collapsed */
+  position: fixed; /* To position the sidebar over content */
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Ensure it is above other elements */
+}
+
+.sidebar.hidden {
+  max-width: 0;
+  padding: 0;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin-left: 5px;
+  cursor: pointer;
+  font-size: 30px;
+  color: white;
+}
+
+.reporthead {
+  color: white;
+  margin: 0px 15px;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.menu-buttons {
+  margin-left: 20px;
+  font-size: 20px;
+  padding-top: 20px;
+  margin-bottom: 100px;
+}
+
+.reportbuttons {
+  color: white;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  background-color: inherit; /* Explicitly set the default background color */
+}
+
+.reportbuttons:hover {
+  color: white;
+  background-color: gray;
+  cursor: pointer;
+}
+
+.reportbuttons.active {
+  background-color: rgba(224, 224, 224, 1);
+  color: black; 
+}
+
+.menu-buttons a {
+  text-decoration: none;
+  color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.reporthead img {
+  height: 30vh;
+  width: 35vh;
+  transition: height 0.3s ease, width 0.3s ease; /* Smooth transition for logo size */
+  margin-top: 30px;
+}
+
+.sidebar.hidden .reporthead img {
+  height: 0; /* Hide logo when sidebar is collapsed */
+  width: 0;
+}
